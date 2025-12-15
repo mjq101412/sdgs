@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/mdb.min.css" />
     <!-- MDB PLUGINS -->
     <link rel="stylesheet" href="plugins/css/all.min.css" />
+    <!--自訂義 -->
+    <link rel="stylesheet" href="./css/style.css" />
     <!-- Custom styles -->
     <style></style>
   </head>
@@ -31,73 +33,111 @@
 
 
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <!-- Container wrapper -->
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <i class="fab fa-github fa-2x mx-3 ps-1"></i>
-    </a>
-    <button class="navbar-toggler" type="button" data-mdb-collapse-init data-mdb-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Toggle button -->
+    <button
+      data-mdb-collapse-init
+      class="navbar-toggler"
+      type="button"
+      data-mdb-target="#navbarLeftAlignExample"
+      aria-controls="navbarLeftAlignExample"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <i class="fas fa-bars"></i>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+      <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#">Pull request</a>
+          <a class="nav-link active" aria-current="page" href="#">首頁</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Issues</a>
+          <a class="nav-link" href="#">音軌裡的歷史</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Marketplace</a>
+          <a class="nav-link" href="#">聽見時代的回音</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Explore</a>
-        </li>
-      </ul>
-      <ul class="navbar-nav d-flex flex-row ms-auto me-3">
-        <li class="nav-item me-3 me-lg-0 dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-dropdown-init
-            aria-expanded="false">
-            <i class="fas fa-plus"></i>
+        <!-- Navbar dropdown -->
+        <li class="nav-item dropdown">
+          <a
+            data-mdb-dropdown-init
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            aria-expanded="false"
+          >
+            音軌裡的歷史
           </a>
-          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+          <!-- Dropdown menu -->
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li>
-              <hr class="dropdown-divider" />
+              <a class="nav-link disabled">1980年代</a>
             </li>
             <li>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">大約在冬季</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">忘了你‧忘了我</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">酒矸倘賣無</a>
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+
+              <li>
+                <a class="nav-link disabled">1990年代</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">我是一隻小小鳥</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">吻別</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">海闊天空</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+
+                <li>
+                  <a class="nav-link disabled">2000年代</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">一九四五 1945</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">天黑黑</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">擱淺的人</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+
+
+
             </li>
           </ul>
         </li>
-        <li class="nav-item me-3 me-lg-0 dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-mdb-dropdown-init
-            aria-expanded="false">
-            <img src="https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg" class="rounded-circle" height="22" alt=""
-              loading="lazy" />
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown1">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li>
-              <hr class="dropdown-divider" />
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </li>
-          </ul>
-        </li>
+
       </ul>
+      <!-- Left links -->
     </div>
+    <!-- Collapsible wrapper -->
   </div>
+  <!-- Container wrapper -->
 </nav>
-<!-- Navbar -->
-
-
 
 
 
@@ -204,7 +244,7 @@
   <!--Section: Design Block-->
   <section class="text-center">
     <p class="fs-1 fw-bold text-center mb-5">音軌裡的歷史</p>
-    
+
 <!-- Tabs navs -->
 <ul class="nav nav-tabs nav-justified mb-3" id="ex1" role="tablist">
   <li class="nav-item" role="presentation">
@@ -259,9 +299,9 @@
       <div class="col-lg-4 mb-4 mb-lg-0">
         <div class="bg-image hover-zoom hover-overlay shadow-2 rounded" data-mdb-ripple-color="light" data-mdb-ripple-init>
           <img src="https://ppt.cc/fTYZjx@.jpg" alt="sample" class="img-fluid">
-          
+
             <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-          
+
         </div>
         <h4 class="my-4">大約在冬季</h4>
           <a href="in1-1.html">
@@ -271,9 +311,9 @@
       <div class="col-lg-4 mb-0">
         <div class="bg-image hover-zoom hover-overlay shadow-2 rounded" data-mdb-ripple-color="light" data-mdb-ripple-init>
           <img src="https://ppt.cc/fkaVXx@.jpg" alt="sample" class="img-fluid">
-          
+
             <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-          
+
         </div>
         <h4 class="my-4">忘了你‧忘了我</h4>
         <a href="in1-2.html">
@@ -283,9 +323,9 @@
       <div class="col-lg-4 mb-0">
         <div class="bg-image hover-zoom hover-overlay shadow-2 rounded" data-mdb-ripple-color="light" data-mdb-ripple-init>
           <img src="https://ppt.cc/fPF2Yx@.jpg" alt="sample" class="img-fluid">
-          
+
             <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-          
+
         </div>
         <h4 class="my-4">酒矸倘賣無</h4>
         <a href="in1-3.html">
@@ -305,9 +345,9 @@
       <div class="col-lg-4 mb-4 mb-lg-0">
         <div class="bg-image hover-zoom hover-overlay shadow-2 rounded" data-mdb-ripple-color="light" data-mdb-ripple-init>
           <img src="https://ppt.cc/fwzWrx@.jpg" alt="sample" class="img-fluid">
-          
+
             <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-          
+
         </div>
         <h4 class="my-4">我是一隻小小鳥</h4>
           <a href="in2-1.html">
@@ -317,9 +357,9 @@
       <div class="col-lg-4 mb-0">
         <div class="bg-image hover-zoom hover-overlay shadow-2 rounded" data-mdb-ripple-color="light" data-mdb-ripple-init>
           <img src="https://ppt.cc/fwC4Ux@.jpg" alt="sample" class="img-fluid">
-          
+
             <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-          
+
         </div>
         <h4 class="my-4">吻別</h4>
         <a href="in2-2.html">
@@ -329,10 +369,10 @@
       <div class="col-lg-4 mb-0">
         <div class="bg-image hover-zoom hover-overlay shadow-2 rounded" data-mdb-ripple-color="light" data-mdb-ripple-init>
           <img src="https://ppt.cc/f2Vdfx@.jpg" alt="sample" class="img-fluid">
-          
+
             <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-          
-          
+
+
         </div>
         <h4 class="my-4">海闊天空</h4>
         <a href="in2-3.html">
@@ -352,9 +392,9 @@
       <div class="col-lg-4 mb-4 mb-lg-0">
         <div class="bg-image hover-zoom hover-overlay shadow-2 rounded" data-mdb-ripple-color="light" data-mdb-ripple-init>
           <img src="https://ppt.cc/fO1oRx@.jpg" alt="sample" class="img-fluid">
-          
+
             <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-          
+
         </div>
         <h4 class="my-4">一九四五 1945</h4>
           <a href="in3-1.html">
@@ -364,9 +404,9 @@
       <div class="col-lg-4 mb-0">
         <div class="bg-image hover-zoom hover-overlay shadow-2 rounded" data-mdb-ripple-color="light" data-mdb-ripple-init>
           <img src="https://ppt.cc/fNP8zx@.jpg" alt="sample" class="img-fluid">
-          
+
             <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-          
+
         </div>
         <h4 class="my-4">天黑黑</h4>
         <a href="in3-2.html">
@@ -376,9 +416,9 @@
       <div class="col-lg-4 mb-0">
         <div class="bg-image hover-zoom hover-overlay shadow-2 rounded" data-mdb-ripple-color="light" data-mdb-ripple-init>
           <img src="https://ppt.cc/fcPwvx@.jpg" alt="sample" class="img-fluid">
-          
+
             <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-          
+
         </div>
         <h4 class="my-4">擱淺的人</h4>
         <a href="in3-3.html">
@@ -424,14 +464,14 @@
 
 
 
- 
+
 
     <div class="container my-5">
 
   <!--Section: Design Block-->
   <section class="mb-10">
     <p class="fs-1 fw-bold text-center mb-5">聽見時代的回音</p>
-    
+
     <div class="row gx-md-5">
       <div class="col-md-12 col-lg-4">
         <div class="mb-5 mb-lg-0">
@@ -451,7 +491,7 @@
             <button type="button" class="btn btn-outline-link btn-rounded   " data-mdb-ripple-color="#000000"> 活動詳情 </button>
             </a>
           </h6>
-          
+
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
@@ -612,7 +652,7 @@
 
 
 
- 
+
 
 
 
