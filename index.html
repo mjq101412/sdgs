@@ -24,7 +24,21 @@
     <!--自訂義 -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Custom styles -->
-    <style></style>
+<style>
+  .nav-link.active {
+    color: #fcad24 !important;
+    /* Color for active tab */
+    border-bottom: 2px solid #fcad24 !important;
+    /* Underline color for active tab */
+  }
+
+  .nav-link {
+    color: #000;
+    /* Default color for non-active tabs */
+    border-bottom: 2px solid transparent;
+    /* Default transparent bottom border */
+  }
+</style>
   </head>
 
   <body>
@@ -33,7 +47,7 @@
 
 
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary"  style="background-color:#af423a !important; " >
   <!-- Container wrapper -->
   <div class="container-fluid">
     <!-- Toggle button -->
@@ -54,7 +68,7 @@
       <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">首頁</a>
+          <a class="nav-link active" aria-current="page"  href="#" style="color: white;">首頁</a>
         </li>
 
 
@@ -75,6 +89,7 @@
             id="navbarDropdown"
             role="button"
             aria-expanded="false"
+            style="color: white;"
           >
             音軌裡的歷史
           </a>
@@ -135,6 +150,7 @@
             id="navbar Dropdown"
             role="button"
             aria-expanded="false"
+            style="color: white;"
           >
             聽見時代的回音
           </a>
@@ -263,15 +279,16 @@
 
 
 <!-- Container for demo purpose -->
-<div class="container my-5 p-5 shadow-5">
+<div class="container my-5 p-5 shadow-5" >
 
   <!--Section: Design Block-->
   <section class="text-center">
 
-    <p class="fs-1 fw-bold text-center mb-5">音軌裡的歷史</p>
+    <p class="fs-1 fw-bold text-center mb-5" style=" color: #af423a;">音軌裡的歷史</p>
+
 
 <!-- Tabs navs -->
-<ul class="nav nav-tabs nav-justified mb-3" id="ex1" role="tablist">
+<ul class="nav nav-tabs nav-justified mb-3" id="ex1" role="tablist" >
   <li class="nav-item" role="presentation">
     <a
       data-mdb-tab-init
@@ -282,6 +299,7 @@
       aria-controls="ex3-tabs-1"
       aria-selected="true"
       style="font-size: 20px;"
+
       >1980年代</a
     >
   </li>
@@ -507,7 +525,7 @@
 
   <!--Section: Design Block-->
   <section class="mb-10">
-    <p class="fs-1 fw-bold text-center mb-5">聽見時代的回音</p>
+    <p class="fs-1 fw-bold text-center mb-5" style=" color: #af423a;">聽見時代的回音</p>
 
     <div class="row gx-md-5">
       <div class="col-md-12 col-lg-4">
@@ -520,7 +538,7 @@
             </a>
           </div>
           <h4 class="fw-bold mb-3">
-            <a href="#!" class="text-reset">活動名稱:從唱針開始的旅程<br></a>
+            <a href="#!" class="text-reset" style="color: #fcad24 !important;">活動名稱:從唱針開始的旅程<br></a>
           </h4>
           <h5 class="fw-bold mb-3">
          <a href="#!" class="text-reset fw-normal">活動時間:2025.12.12  01:03～01:04 <br>活動地點：活動廣場料理處<br></a>
@@ -544,10 +562,10 @@
             </a>
           </div>
           <h4 class="fw-bold mb-3">
-            <a href="#!" class="text-reset">活動名稱:一起上針！黑膠初體驗<br></a>
+            <a href="#!" class="text-reset" style="color: #fcad24 !important;">活動名稱:一起上針！黑膠初體驗<br></a>
           </h4>
           <h5 class="fw-bold mb-3">
-            <a href="#!" class="text-reset fw-normal">活動時間:2025.11.29  10:22 ~13:55 <br>活動地點：天天廣場<br></a>
+            <a href="#!" class="text-reset fw-normal" >活動時間:2025.11.29  10:22 ~13:55 <br>活動地點：天天廣場<br></a>
           </h5>
           <h6 class="text-muted text-uppercase small pb-1">
             <a href="in5.html">
@@ -567,7 +585,7 @@
             </a>
           </div>
           <h4 class="fw-bold mb-3">
-            <a href="#!" class="text-reset">活動名稱:Groove On！憶起轉起來<br></a>
+            <a href="#!" class="text-reset" style="color: #fcad24 !important;">活動名稱:Groove On！憶起轉起來<br></a>
           </h4>
           <h5 class="fw-bold mb-3">
             <a href="#!" class="text-reset fw-normal">活動時間:2025.11.11  02:19~03:19 <br>活動地點：天龍國活動中心<br></a>
@@ -612,7 +630,7 @@
   <section class="mb-8">
     <div class="row">
       <div class="col-12 text-center">
-        <p class="fs-1 fw-bold text-center mb-5">網頁製作人</p>
+        <p class="fs-1 fw-bold text-center mb-5" style=" color: #af423a;">網頁製作人</p>
       </div>
     </div>
     <div class="row gx-lg-5">
