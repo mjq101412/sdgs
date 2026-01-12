@@ -13,6 +13,42 @@
 
 
 
+.activity-title {
+  color: #af423a !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* button */
+
+
+
+
+button.activity-title[aria-expanded="true"] {
+  color: #fcad24 !important;
+}
+
+button.activity-title[aria-expanded="false"] {
+  color:  #af423a !important;
+}
+
+
+/* button */
+
+
 
 
 
