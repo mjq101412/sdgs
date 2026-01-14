@@ -21,10 +21,20 @@
 
 
 
+/* navbar */
+
+.nav-link { 
+  color: #ffffff; border-bottom: 
+  2px solid transparent; } 
+
+.nav-link.active { 
+  color: #fcad24 !important; border-bottom: 
+  2px solid #fcad24 !important; }
 
 
 
 
+/* navbar */
 
 
 
