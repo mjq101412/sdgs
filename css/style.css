@@ -23,12 +23,12 @@
 
 /* navbar */
 
-.nav-link { 
-  color: #ffffff; border-bottom: 
-  2px solid transparent; } 
+.nav-link {
+  color: #ffffff; border-bottom:
+  2px solid transparent; }
 
-.nav-link.active { 
-  color: #fcad24 !important; border-bottom: 
+.nav-link.active {
+  color: #fcad24 !important; border-bottom:
   2px solid #fcad24 !important; }
 
 
@@ -95,7 +95,23 @@ button.activity-title[aria-expanded="false"] {
 .pulse-btn {
   animation: pulse 1.5s infinite;
 }
-            
+
+
+
+/* 箭頭 */
+
+
+button[aria-expanded="true"] i {
+  transform: rotate(180deg);
+  transition: 0.3s;
+}
+
+button i {
+  transition: 0.3s;
+}
+
+
+
 /* 動畫 */
 
 
@@ -115,9 +131,14 @@ button.activity-title[aria-expanded="false"] {
 
 
 
+/* 行高 */
+.activity-text {
+  line-height: 1.5;
+
+}
 
 
-
+/* 行高 */
 
 
 
