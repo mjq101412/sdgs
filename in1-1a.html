@@ -29,13 +29,21 @@
 
 
     <style>
-@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
 
 
-body{
-         font-family: "Chiron GoRound TC", sans-serif;
-}
-</style>
+      body{
+              font-family: "Chiron GoRound TC", sans-serif;
+      }
+
+      .multi-line-truncate {
+        display: -webkit-box;        /* 建立伸縮盒模型 */
+        -webkit-box-orient: vertical;/* 垂直排列子元素 */
+        -webkit-line-clamp: 10;      /* 限制 10 行 */
+        overflow: hidden;            /* 超出隱藏 */
+        text-overflow: ellipsis;     /* 省略號 */
+      }
+    </style>
   </head>
 
 
@@ -224,7 +232,7 @@ body{
 
           <div id="collapseOne" class="collapse show ps-3 text-justify" aria-labelledby="headingOne"
             data-mdb-parent="#accordionExample">
-            <h5 class="text-reset fw-normal text-justify activity-text">
+            <h5 class="text-reset fw-normal text-justify activity-text multi-line-truncate">
               輕輕的我將離開你 請將眼角的淚拭去<br>
               漫漫長夜裡 未來日子裡 親愛的你別為我哭泣<br>
               前方的路雖然太淒迷 請在笑容裡為我祝福<br>
@@ -246,7 +254,9 @@ body{
               你問我何時歸故里 我也輕聲地問自己<br>
               不是在此時 不知在何時 我想大約會是在冬（x3）<br>
              </h5>
-
+             <p class="text-end px-5 py-3">
+              <a class="btn btn-primary" href="in1-1b.html">下一頁</a>
+             </p>
           </div>
           <!-- Single collapse -->
 
