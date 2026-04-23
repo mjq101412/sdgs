@@ -30,6 +30,11 @@
 
 
 
+
+
+
+
+
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
 
@@ -37,10 +42,19 @@
 body{
          font-family: "Chiron GoRound TC", sans-serif;
 }
+
+.multi-line-truncate {
+        display: -webkit-box;        /* 建立伸縮盒模型 */
+        -webkit-box-orient: vertical;/* 垂直排列子元素 */
+        -webkit-line-clamp: 10;      /* 限制 10 行 */
+        overflow: hidden;            /* 超出隱藏 */
+        text-overflow: ellipsis;     /* 省略號 */
+      }
 </style>
   </head>
 
   <body>
+
 
 
 
@@ -104,13 +118,13 @@ body{
               <a class="nav-link disabled">1980年代</a>
             </li>
             <li>
-              <a class="dropdown-item" href="in1-1.html">大約在冬季</a>
+              <a class="dropdown-item" href="in1-1a.html">大約在冬季</a>
             </li>
             <li>
-              <a class="dropdown-item" href="in1-2.html">忘了你‧忘了我</a>
+              <a class="dropdown-item" href="in1-2a.html">忘了你‧忘了我</a>
             </li>
             <li>
-              <a class="dropdown-item" href="in1-3.html">酒矸倘賣無</a>
+              <a class="dropdown-item" href="in1-3a.html">酒矸倘賣無</a>
             </li>
             <li><hr class="dropdown-divider" /></li>
 
@@ -119,13 +133,13 @@ body{
                 <a class="nav-link disabled">1990年代</a>
               </li>
               <li>
-                <a class="dropdown-item" href="in2-1.html">我是一隻小小鳥</a>
+                <a class="dropdown-item" href="in2-1a.html">我是一隻小小鳥</a>
               </li>
               <li>
-                <a class="dropdown-item" href="in2-2.html">吻別</a>
+                <a class="dropdown-item" href="in2-2a.html">吻別</a>
               </li>
               <li>
-                <a class="dropdown-item" href="in2-3.html">海闊天空</a>
+                <a class="dropdown-item" href="in2-3a.html">海闊天空</a>
               </li>
               <li>
                 <hr class="dropdown-divider" />
@@ -136,13 +150,13 @@ body{
                   <a class="nav-link disabled">2000年代</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="in3-1.html">一九四五 1945</a>
+                  <a class="dropdown-item" href="in3-1a.html">一九四五 1945</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="in3-2.html">天黑黑</a>
+                  <a class="dropdown-item" href="in3-2a.html">天黑黑</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="in3-3.html">擱淺的人</a>
+                  <a class="dropdown-item" href="in3-3a.html">擱淺的人</a>
                 </li>
 
           </ul>
@@ -195,14 +209,13 @@ body{
 
 
 
-
  <!-- Container for demo purpose -->
 <div class="container my-5 p-5 shadow-5">
 
   <!--Section: Design Block-->
   <section>
 
-    <h3 class="fs-1 text-center mb-5  text-primary ">歌曲檔案</h3>
+    <h3 class="fs-1 text-center mb-5  text-primary">歌曲檔案</h3>
 
     <div class="row">
       <div class="col-lg-6 mb-4 mb-lg-0">
@@ -214,50 +227,20 @@ body{
               <button class="btn btn-link btn-block text-start ps-3 fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
                 data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 <i class="fas fa-angle-down"></i>
-                歌詞預覽
+                歌曲背景
               </button>
             </h2>
           </div>
 
           <div id="collapseOne" class="collapse show ps-3" aria-labelledby="headingOne"
             data-mdb-parent="#accordionExample">
-            <h5 class="text-reset fw-normal text-justify activity-text">
-            我的小時候 吵鬧任性的時候<br>
-              我的外婆總會唱歌哄我<br>
-              夏天的午後 老老的歌安慰我<br>
-              那首歌好像這樣唱的<br>
-              天黑黑 欲落雨<br>
-              天黑黑 黑黑<br>
-              離開小時候 有了自己的生活<br>
-              新鮮的歌 新鮮的念頭<br>
-              任性和衝動 無法控制的時候<br>
-              我忘記還有這樣的歌<br>
-              天黑黑 欲落雨<br>
-              天黑黑 黑黑<br>
-              我愛上讓我奮不顧身的一個人<br>
-              我以為這就是我所追求的世界<br>
-              然而橫衝直撞 被誤解 被騙<br>
-              是否成人的世界背後總有殘缺?<br>
-              我走在每天必須面對的分岔路<br>
-              我懷念過去單純美好的小幸福<br>
-              愛總是讓人哭 讓人覺得不滿足<br>
-              天空很大 卻看不清楚 好孤獨<br>
-              我愛上讓我奮不顧身的一個人<br>
-              我以為這就是我所追求的世界<br>
-              然而橫衝直撞 被誤解 被騙<br>
-              是否成人的世界背後總有殘缺?<br>
-              我走在每天必須面對的分岔路<br>
-              我懷念過去單純美好的小幸福<br>
-              愛總是讓人哭 讓人覺得不滿足<br>
-              天空很大 卻看不清楚 好孤獨<br>
-              天黑的時候 我又想起那首歌<br>
-              突然期待下起安靜的雨<br>
-              原來外婆的道理早就唱給我聽<br>
-              下起雨也要勇敢前進<br>
-              我相信一切都會平息 我現在好想回家去<br>
-              天黑黑 欲落雨<br>
-              天黑黑 黑黑<br>
-              </h5>
+             <h5 class="text-reset fw-normal text-justify activity-text">
+           《海闊天空》是一首以自由、堅持與自我信念為核心的經典歌曲，描寫人在面對人生困境與壓力時，如何在低潮中重新找回力量與方向。
+            歌詞呈現對現實束縛的不滿，也傳達即使被誤解、被否定，仍堅持自我道路的態度。<br><br>
+            開頭「原諒我這一生不羈放縱愛自由」點出主題，強調自由並非叛逆，而是忠於內心、不受外界期待限制。人在迷惘、孤單與壓力沉重時，仍努力保持清醒與信念。
+            副歌「仍然自由自我，永遠高唱我歌」象徵宣言，說明真正的自由不是逃避，而是在逆境中仍保有內心的廣闊與堅定。
+            只要勇敢面對，就能在生命歷程中找到屬於自己的希望與可能，並持續前行展現面對人生仍不放棄的精神力量！
+          </h5>
           </div>
           <!-- Single collapse -->
 
@@ -267,19 +250,17 @@ body{
               <button class="btn btn-link btn-block text-start ps-3 collapsed fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
                 data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <i class="fas fa-angle-down"></i>
-                歌曲背景
+                製作團隊
               </button>
             </h2>
           </div>
 
           <div id="collapseTwo" class="collapse ps-3" aria-labelledby="headingTwo" data-mdb-parent="#accordionExample">
-             <h5 class="text-reset fw-normal text-justify activity-text">
-             歌曲背景講述一個人在成長過程中，從兒時的單純快樂走向面對現實的困難與壓力。
-             歌詞中的「天黑黑，欲落雨」象徵世界變得沉重，也象徵心裡的不安與迷茫。
-             童年時以為下雨只是自然現象，大人會替自己撐傘，但長大後才發現，有些風雨必須獨自承受，這種對比讓歌曲格外動人。<br><br>
-             成長不只是生活壓力，也包含愛情的失望與挫折，甚至是理想破滅後的重新理解與調整。當「我以為這就是我要的世界」時，卻發現現實與理想有落差，使人重新審視人生方向與價值。
-             最後「天黑的時候我又想起你」，象徵思念與依靠，那個人可能是家人、朋友或過去的自己。
-             歌曲提醒人們，成長雖然伴隨痛苦與失落，但回憶與愛仍能支撐人繼續前行。
+            <h5 class="text-reset fw-normal text-justify activity-text">
+            演唱：Beyond樂隊<br>
+            作詞：黃家駒<br>
+            作曲：黃家駒<br>
+            發行日期：1993年5月26日<br>
             </h5>
           </div>
           <!-- Single collapse -->
@@ -290,7 +271,7 @@ body{
               <button class="btn btn-link btn-block text-start ps-3 collapsed fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
                 data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 <i class="fas fa-angle-down"></i>
-               製作團隊
+                歌詞預覽
               </button>
             </h2>
           </div>
@@ -298,27 +279,60 @@ body{
           <div id="collapseThree" class="collapse ps-3" aria-labelledby="headingThree"
             data-mdb-parent="#accordionExample">
              <h5 class="text-reset fw-normal text-justify activity-text">
-              演唱： 孫燕姿<br>
-            作詞： 廖瑩如、吳依錚<br>
-            作曲： 李偲菘<br>
-            發行日期：2000年6月9日<br>
-           </h5>
+          今天我寒夜裏看雪飄過<br>
+          懷著冷卻了的心窩漂遠方<br>
+          風雨裏追趕 霧裏分不清影蹤<br>
+          天空海闊 你與我可會變 (誰沒在變?) <br>
+          多少次迎著冷眼與嘲笑<br>
+          從沒有放棄過心中的理想<br>
+          一剎那恍惚 若有所失的感覺<br>
+          不知不覺已變淡心裏愛 (誰明白我?) <br>
+          原諒我這一生不羈放縱 愛自由<br>
+          也會怕有一天會跌倒 oh, no <br>
+          背棄了理想 誰人都可以<br>
+          哪會怕有一天只你共我<br>
+          今天我寒夜裏看雪飄過<br>
+          懷著冷卻了的心窩漂遠方<br>
+          風雨裏追趕 霧裏分不清影蹤<br>
+          天空海闊 你與我可會變 (誰沒在變?) <br>
+          原諒我這一生不覊放縱 愛自由<br>
+          也會怕有一天會跌倒 oh, no <br>
+          背棄了理想 誰人都可以<br>
+          哪會怕有一天只你共我 oh, yeah <br>
+          仍然自由自我 永遠高唱我歌<br>
+          走遍千里<br>
+          原諒我這一生不羈放縱 愛自由<br>
+          也會怕有一天會跌倒 oh, no <br>
+          背棄了理想 誰人都可以<br>
+          哪會怕有一天只你共我 oh, yeah <br>
+          oh, yeah <br>
+          (也會怕有一天會跌倒) oh-oh-oh <br>
+          (背棄了理想 誰人都可以) whoa-oh <br>
+          (哪會怕有一天只你共我) <br>
+            </h5>
 
+            </h5>
+             <p class="text-end px-5 py-3">
+              <a class="btn btn-primary" href="in2-3a.html">上一頁</a>
+             </p>
+            </h5>
           </div>
           <!-- Single collapse -->
         </div>
         <!-- Accordion wrapper -->
       </div>
-        <div class="col-lg-6 pb-2 d-flex justify-content-center">
-        <div class="text-end">
-          <img src="https://ppt.cc/fVmmcx@.jpg" class="img-fluid shadow-3 rounded d-block" alt="Sample image" />
-          <br>
-          <h3 class="mt-2 text-end text-secondary">
-            歌曲名稱：天黑黑
-          </h3>
-        </div>
+      <div class="col-lg-6 pb-2 d-flex justify-content-center">
+      <div class="text-end">
+    <img src="https://ppt.cc/f3ZLSx@.jpg"
+      class="img-fluid shadow-3 rounded d-block"
+      alt="Sample image" />
+      <br>
+    <h3 class="mt-2 text-end text-secondary">
+       歌曲名稱：海闊天空
+        </h3>
     </div>
-     <div class="text-end">
+      </div>
+    <div class="text-end">
     <a href="index.html">
       <button type="button" class="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="#000000"> 返回上一頁 </button>
     </a>
@@ -342,13 +356,14 @@ body{
 
 
 
-
 <!-- Copyright -->
   <div class="text-center p-3 bg-primary"   style="color: white;" >
     © 2026 Copyright:
     <a class="text-body" href=" https://mjq101412.github.io/sdgs/"  style="color: white !important;">mjq101412.github</a>
   </div>
   <!-- Copyright -->
+
+
 
 
 

@@ -42,6 +42,14 @@
 body{
          font-family: "Chiron GoRound TC", sans-serif;
 }
+
+.multi-line-truncate {
+        display: -webkit-box;        /* 建立伸縮盒模型 */
+        -webkit-box-orient: vertical;/* 垂直排列子元素 */
+        -webkit-line-clamp: 10;      /* 限制 10 行 */
+        overflow: hidden;            /* 超出隱藏 */
+        text-overflow: ellipsis;     /* 省略號 */
+      }
 </style>
   </head>
 
@@ -110,13 +118,13 @@ body{
               <a class="nav-link disabled">1980年代</a>
             </li>
             <li>
-              <a class="dropdown-item" href="in1-1.html">大約在冬季</a>
+              <a class="dropdown-item" href="in1-1a.html">大約在冬季</a>
             </li>
             <li>
-              <a class="dropdown-item" href="in1-2.html">忘了你‧忘了我</a>
+              <a class="dropdown-item" href="in1-2a.html">忘了你‧忘了我</a>
             </li>
             <li>
-              <a class="dropdown-item" href="in1-3.html">酒矸倘賣無</a>
+              <a class="dropdown-item" href="in1-3a.html">酒矸倘賣無</a>
             </li>
             <li><hr class="dropdown-divider" /></li>
 
@@ -125,13 +133,13 @@ body{
                 <a class="nav-link disabled">1990年代</a>
               </li>
               <li>
-                <a class="dropdown-item" href="in2-1.html">我是一隻小小鳥</a>
+                <a class="dropdown-item" href="in2-1a.html">我是一隻小小鳥</a>
               </li>
               <li>
-                <a class="dropdown-item" href="in2-2.html">吻別</a>
+                <a class="dropdown-item" href="in2-2a.html">吻別</a>
               </li>
               <li>
-                <a class="dropdown-item" href="in2-3.html">海闊天空</a>
+                <a class="dropdown-item" href="in2-3a.html">海闊天空</a>
               </li>
               <li>
                 <hr class="dropdown-divider" />
@@ -142,13 +150,13 @@ body{
                   <a class="nav-link disabled">2000年代</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="in3-1.html">一九四五 1945</a>
+                  <a class="dropdown-item" href="in3-1a.html">一九四五 1945</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="in3-2.html">天黑黑</a>
+                  <a class="dropdown-item" href="in3-2a.html">天黑黑</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="in3-3.html">擱淺的人</a>
+                  <a class="dropdown-item" href="in3-3a.html">擱淺的人</a>
                 </li>
 
           </ul>
@@ -219,7 +227,7 @@ body{
               <button class="btn btn-link btn-block text-start ps-3 fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
                 data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 <i class="fas fa-angle-down"></i>
-                歌詞預覽
+                歌曲背景
               </button>
             </h2>
           </div>
@@ -227,7 +235,54 @@ body{
           <div id="collapseOne" class="collapse show ps-3" aria-labelledby="headingOne"
             data-mdb-parent="#accordionExample">
             <h5 class="text-reset fw-normal text-justify activity-text">
-           麻痹的人生 習慣我討厭的生活<br>
+           「擱淺」象徵一種無法前進的狀態，如同船隻停留在海中無法航行。
+            歌詞中的人物陷入感情困境，無論如何努力都無法改變現況，呈現出情感停滯與無解的痛苦，也反映內心深處的失落與掙扎。
+            這種擱淺不只是關係的結束，更是一種心理上的停頓與卡住。<br><br>
+            歌曲中的人或許曾試圖挽回、改變或重新開始，但現實讓他進退兩難、無路可走，因而產生強烈的無力感與挫折感。
+            當感情走到盡頭，人往往會經歷自我懷疑與痛苦反思，甚至質疑自身的不足與選擇。
+            然而歌曲並非單純表達悲傷，而是強調這段停滯是一個必經過程，是理解自我、學會放下與成長的契機。
+            在「擱淺」之中，人逐漸學會接納無法改變的過去，並從中重新累積面對未來的力量與勇氣。
+          </h5>
+
+          </div>
+          <!-- Single collapse -->
+
+          <!-- Single collapse -->
+          <div id="headingTwo">
+            <h2>
+              <button class="btn btn-link btn-block text-start ps-3 collapsed fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
+                data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <i class="fas fa-angle-down"></i>
+                製作團隊
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseTwo" class="collapse ps-3" aria-labelledby="headingTwo" data-mdb-parent="#accordionExample">
+            <h5 class="text-reset fw-normal text-justify activity-text">
+            作詞：康士坦的變化球<br>
+            作曲：康士坦的變化球<br>
+            演唱：康士坦的變化球<br>
+            發行日期：2016年12月1日<br>
+            </h5>
+          </div>
+          <!-- Single collapse -->
+
+          <!-- Single collapse -->
+          <div id="headingThree">
+            <h2>
+              <button class="btn btn-link btn-block text-start ps-3 collapsed fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
+                data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <i class="fas fa-angle-down"></i>
+                歌詞預覽
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseThree" class="collapse ps-3" aria-labelledby="headingThree"
+            data-mdb-parent="#accordionExample">
+            <h5 class="text-reset fw-normal text-justify activity-text multi-line-truncate">
+            麻痹的人生 習慣我討厭的生活<br>
             麻痹的人生 習慣你自己很爛啊<br>
             麻痹的人生 習慣痛苦的關係<br>
             但是你又習慣和那個人在一起<br>
@@ -258,53 +313,11 @@ body{
             就這樣吧 算了啊*(x3) <br>
           </h5>
 
-          </div>
-          <!-- Single collapse -->
-
-          <!-- Single collapse -->
-          <div id="headingTwo">
-            <h2>
-              <button class="btn btn-link btn-block text-start ps-3 collapsed fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
-                data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <i class="fas fa-angle-down"></i>
-                歌曲背景
-              </button>
-            </h2>
-          </div>
-
-          <div id="collapseTwo" class="collapse ps-3" aria-labelledby="headingTwo" data-mdb-parent="#accordionExample">
-            <h5 class="text-reset fw-normal text-justify activity-text">
-            「擱淺」象徵一種無法前進的狀態，如同船隻停留在海中無法航行。
-            歌詞中的人物陷入感情困境，無論如何努力都無法改變現況，呈現出情感停滯與無解的痛苦，也反映內心深處的失落與掙扎。
-            這種擱淺不只是關係的結束，更是一種心理上的停頓與卡住。<br><br>
-            歌曲中的人或許曾試圖挽回、改變或重新開始，但現實讓他進退兩難、無路可走，因而產生強烈的無力感與挫折感。
-            當感情走到盡頭，人往往會經歷自我懷疑與痛苦反思，甚至質疑自身的不足與選擇。然而歌曲並非單純表達悲傷，而是強調這段停滯是一個必經過程，是理解自我、學會放下與成長的契機。
-            在「擱淺」之中，人逐漸學會接納無法改變的過去，並從中重新累積面對未來的力量與勇氣。
-            </h5>
-          </div>
-          <!-- Single collapse -->
-
-          <!-- Single collapse -->
-          <div id="headingThree">
-            <h2>
-              <button class="btn btn-link btn-block text-start ps-3 collapsed fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
-                data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <i class="fas fa-angle-down"></i>
-                製作團隊
-              </button>
-            </h2>
-          </div>
-
-          <div id="collapseThree" class="collapse ps-3" aria-labelledby="headingThree"
-            data-mdb-parent="#accordionExample">
-            <h5 class="text-reset fw-normal text-justify activity-text">
-            作詞：康士坦的變化球<br>
-            作曲：康士坦的變化球<br>
-            演唱：康士坦的變化球<br>
-            發行日期：2016年12月1日<br>
           </h5>
-
-
+             <p class="text-end px-5 py-3">
+              <a class="btn btn-primary" href="in3-3b.html">下一頁</a>
+             </p>
+            </h5>
           </div>
           <!-- Single collapse -->
         </div>

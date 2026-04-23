@@ -33,6 +33,14 @@
 body{
          font-family: "Chiron GoRound TC", sans-serif;
 }
+
+.multi-line-truncate {
+        display: -webkit-box;        /* 建立伸縮盒模型 */
+        -webkit-box-orient: vertical;/* 垂直排列子元素 */
+        -webkit-line-clamp: 10;      /* 限制 10 行 */
+        overflow: hidden;            /* 超出隱藏 */
+        text-overflow: ellipsis;     /* 省略號 */
+      }
 </style>
 
   </head>
@@ -101,13 +109,13 @@ body{
               <a class="nav-link disabled">1980年代</a>
             </li>
             <li>
-              <a class="dropdown-item" href="in1-1.html">大約在冬季</a>
+              <a class="dropdown-item" href="in1-1a.html">大約在冬季</a>
             </li>
             <li>
-              <a class="dropdown-item" href="in1-2.html">忘了你‧忘了我</a>
+              <a class="dropdown-item" href="in1-2a.html">忘了你‧忘了我</a>
             </li>
             <li>
-              <a class="dropdown-item" href="in1-3.html">酒矸倘賣無</a>
+              <a class="dropdown-item" href="in1-3a.html">酒矸倘賣無</a>
             </li>
             <li><hr class="dropdown-divider" /></li>
 
@@ -116,13 +124,13 @@ body{
                 <a class="nav-link disabled">1990年代</a>
               </li>
               <li>
-                <a class="dropdown-item" href="in2-1.html">我是一隻小小鳥</a>
+                <a class="dropdown-item" href="in2-1a.html">我是一隻小小鳥</a>
               </li>
               <li>
-                <a class="dropdown-item" href="in2-2.html">吻別</a>
+                <a class="dropdown-item" href="in2-2a.html">吻別</a>
               </li>
               <li>
-                <a class="dropdown-item" href="in2-3.html">海闊天空</a>
+                <a class="dropdown-item" href="in2-3a.html">海闊天空</a>
               </li>
               <li>
                 <hr class="dropdown-divider" />
@@ -133,13 +141,13 @@ body{
                   <a class="nav-link disabled">2000年代</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="in3-1.html">一九四五 1945</a>
+                  <a class="dropdown-item" href="in3-1a.html">一九四五 1945</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="in3-2.html">天黑黑</a>
+                  <a class="dropdown-item" href="in3-2a.html">天黑黑</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="in3-3.html">擱淺的人</a>
+                  <a class="dropdown-item" href="in3-3a.html">擱淺的人</a>
                 </li>
 
           </ul>
@@ -211,7 +219,7 @@ body{
               <button class="btn btn-link btn-block text-start ps-3 fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
                 data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 <i class="fas fa-angle-down"></i>
-                歌詞預覽
+                歌曲背景
               </button>
             </h2>
           </div>
@@ -219,7 +227,52 @@ body{
           <div id="collapseOne" class="collapse show ps-3" aria-labelledby="headingOne"
             data-mdb-parent="#accordionExample">
             <h5 class="text-reset fw-normal text-justify activity-text">
-           我是一隻小小小小鳥<br>
+           《我是一隻小小鳥》透過「小小鳥」的意象，描繪人在追夢與現實壓力間的掙扎與對自由的渴望。
+            歌詞中「想要飛卻飛不高」象徵理想與現實的落差，反映出人們被環境與不安牽制、難以實現目標的無力感。<br><br>
+            然而，小小鳥並非脆弱，而是帶著堅持與倔強的象徵；即使屢遭挫折，仍願意再次嘗試，哪怕只比昨天進步一點。
+            這展現了人在困境中的韌性與不放棄的精神。同時，鳥兒尋找棲息之處，也象徵人渴望被理解與接納，在奔波中尋找支持與歸屬。
+            整首歌融合了堅強與脆弱，因而特別能引起共鳴。
+          </h5>
+
+          </div>
+          <!-- Single collapse -->
+
+          <!-- Single collapse -->
+          <div id="headingTwo">
+            <h2>
+              <button class="btn btn-link btn-block text-start ps-3 collapsed fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
+                data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <i class="fas fa-angle-down"></i>
+                製作團隊
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseTwo" class="collapse ps-3" aria-labelledby="headingTwo" data-mdb-parent="#accordionExample">
+             <h5 class="text-reset fw-normal text-justify activity-text">
+            演唱：趙傳<br>
+            作詞：李宗盛 	<br>
+            作曲：李宗盛  <br>
+            發行日期：1990年8月1日<br>
+          </h5>
+          </div>
+          <!-- Single collapse -->
+
+          <!-- Single collapse -->
+          <div id="headingThree">
+            <h2>
+              <button class="btn btn-link btn-block text-start ps-3 collapsed fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
+                data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <i class="fas fa-angle-down"></i>
+                歌詞預覽
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseThree" class="collapse ps-3" aria-labelledby="headingThree"
+            data-mdb-parent="#accordionExample">
+             <h5 class="text-reset fw-normal text-justify activity-text multi-line-truncate">
+            我是一隻小小小小鳥<br>
             我尋尋覓覓尋尋覓覓一個溫暖的懷抱<br>
             這樣的要求算不算太高<br>
 
@@ -250,51 +303,12 @@ body{
             想要飛呀飛卻飛也飛不高<br>
             我尋尋覓覓尋尋覓覓一個溫暖的懷抱　<br>
             這樣的要求算不算太高<br>
-          </h5>
+            </h5>
 
-          </div>
-          <!-- Single collapse -->
-
-          <!-- Single collapse -->
-          <div id="headingTwo">
-            <h2>
-              <button class="btn btn-link btn-block text-start ps-3 collapsed fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
-                data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <i class="fas fa-angle-down"></i>
-                歌曲背景
-              </button>
-            </h2>
-          </div>
-
-          <div id="collapseTwo" class="collapse ps-3" aria-labelledby="headingTwo" data-mdb-parent="#accordionExample">
-             <h5 class="text-reset fw-normal text-justify activity-text">
-            《我是一隻小小鳥》透過「小小鳥」的意象，描繪人在追夢與現實壓力間的掙扎與對自由的渴望。
-            歌詞中「想要飛卻飛不高」象徵理想與現實的落差，反映出人們被環境與不安牽制、難以實現目標的無力感。<br><br>
-            然而，小小鳥並非脆弱，而是帶著堅持與倔強的象徵；即使屢遭挫折，仍願意再次嘗試，哪怕只比昨天進步一點。
-            這展現了人在困境中的韌性與不放棄的精神。同時，鳥兒尋找棲息之處，也象徵人渴望被理解與接納，在奔波中尋找支持與歸屬。
-            整首歌融合了堅強與脆弱，因而特別能引起共鳴。
-          </h5>
-          </div>
-          <!-- Single collapse -->
-
-          <!-- Single collapse -->
-          <div id="headingThree">
-            <h2>
-              <button class="btn btn-link btn-block text-start ps-3 collapsed fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
-                data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <i class="fas fa-angle-down"></i>
-                製作團隊
-              </button>
-            </h2>
-          </div>
-
-          <div id="collapseThree" class="collapse ps-3" aria-labelledby="headingThree"
-            data-mdb-parent="#accordionExample">
-             <h5 class="text-reset fw-normal text-justify activity-text">
-            演唱：趙傳<br>
-            作詞：李宗盛 	<br>
-            作曲：李宗盛  <br>
-            發行日期：1990年8月1日<br>
+            </h5>
+             <p class="text-end px-5 py-3">
+              <a class="btn btn-primary" href="in2-1b.html">下一頁</a>
+             </p>
             </h5>
           </div>
           <!-- Single collapse -->

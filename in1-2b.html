@@ -25,7 +25,6 @@
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Custom styles -->
     <style></style>
-
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
 
@@ -33,6 +32,14 @@
 body{
          font-family: "Chiron GoRound TC", sans-serif;
 }
+
+.multi-line-truncate {
+        display: -webkit-box;        /* 建立伸縮盒模型 */
+        -webkit-box-orient: vertical;/* 垂直排列子元素 */
+        -webkit-line-clamp: 10;      /* 限制 10 行 */
+        overflow: hidden;            /* 超出隱藏 */
+        text-overflow: ellipsis;     /* 省略號 */
+      }
 </style>
   </head>
 
@@ -46,7 +53,9 @@ body{
 
 
 
-<nav class="navbar navbar-expand-lg bg-primary">
+
+
+<nav class="navbar navbar-expand-lg bg-primary" >
   <!-- Container wrapper -->
   <div class="container-fluid">
     <!-- Toggle button -->
@@ -89,7 +98,7 @@ body{
             id="navbarDropdown"
             role="button"
             aria-expanded="false"
-      style="color: white;"
+          style="color: white;"
           >
             音軌裡的歷史
           </a>
@@ -99,13 +108,13 @@ body{
               <a class="nav-link disabled">1980年代</a>
             </li>
             <li>
-              <a class="dropdown-item" href="in1-1.html">大約在冬季</a>
+              <a class="dropdown-item" href="in1-1a.html">大約在冬季</a>
             </li>
             <li>
-              <a class="dropdown-item" href="in1-2.html">忘了你‧忘了我</a>
+              <a class="dropdown-item" href="in1-2a.html">忘了你‧忘了我</a>
             </li>
             <li>
-              <a class="dropdown-item" href="in1-3.html">酒矸倘賣無</a>
+              <a class="dropdown-item" href="in1-3a.html">酒矸倘賣無</a>
             </li>
             <li><hr class="dropdown-divider" /></li>
 
@@ -114,13 +123,13 @@ body{
                 <a class="nav-link disabled">1990年代</a>
               </li>
               <li>
-                <a class="dropdown-item" href="in2-1.html">我是一隻小小鳥</a>
+                <a class="dropdown-item" href="in2-1a.html">我是一隻小小鳥</a>
               </li>
               <li>
-                <a class="dropdown-item" href="in2-2.html">吻別</a>
+                <a class="dropdown-item" href="in2-2a.html">吻別</a>
               </li>
               <li>
-                <a class="dropdown-item" href="in2-3.html">海闊天空</a>
+                <a class="dropdown-item" href="in2-3a.html">海闊天空</a>
               </li>
               <li>
                 <hr class="dropdown-divider" />
@@ -131,13 +140,13 @@ body{
                   <a class="nav-link disabled">2000年代</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="in3-1.html">一九四五 1945</a>
+                  <a class="dropdown-item" href="in3-1a.html">一九四五 1945</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="in3-2.html">天黑黑</a>
+                  <a class="dropdown-item" href="in3-2a.html">天黑黑</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="in3-3.html">擱淺的人</a>
+                  <a class="dropdown-item" href="in3-3a.html">擱淺的人</a>
                 </li>
 
           </ul>
@@ -190,15 +199,14 @@ body{
 
 
 
-
-
  <!-- Container for demo purpose -->
 <div class="container my-5 p-5 shadow-5">
 
   <!--Section: Design Block-->
   <section>
 
-    <h3 class="fs-1 text-center mb-5  text-primary">歌曲檔案</h3>
+
+    <h3 class="fs-1 text-center mb-5 text-primary">歌曲檔案</h3>
 
     <div class="row">
       <div class="col-lg-6 mb-4 mb-lg-0">
@@ -207,45 +215,25 @@ body{
           <!-- Single collapse -->
           <div id="headingOne">
             <h2>
-              <button class="btn btn-link btn-block text-start ps-3 fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
-                data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <i class="fas fa-angle-down"></i>
-                歌詞預覽
-              </button>
+        <button class="btn btn-link btn-block text-start ps-3 fs-3 activity-title" type="button" data-mdb-ripple-init
+          data-mdb-collapse-init data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <i class="fas fa-angle-down"></i>
+          歌曲背景
+          </button>
             </h2>
           </div>
 
           <div id="collapseOne" class="collapse show ps-3" aria-labelledby="headingOne"
             data-mdb-parent="#accordionExample">
              <h5 class="text-reset fw-normal text-justify activity-text">
-           前塵往事成雲煙 消散在彼此眼前<br>
-            就連說過了再見 也看不見你有些哀怨<br>
-            給我的一切 你不過是在敷衍<br>
-            你笑得越無邪 我就會愛你愛得更狂野<br>
+            《忘了你忘了我》是王傑的經典情歌，由王文清作詞作曲，發行於1980年代末期。這首歌以深情、滄桑的旋律和王傑獨特的嗓音
+            ，描繪了愛情結束後的無奈與掙扎。歌詞中，主角明知道兩人的感情已經走到盡頭，卻仍無法忘記彼此，內心反覆拉扯，呈現出
+            「想放手卻放不下」的矛盾情緒。<br><br>
+            歌曲背後的背景反映了當時華語流行音樂中對情感的細膩表達，透過內斂卻深刻的詞句，把分手的痛苦刻畫得既真實又感人。
+            它不是激烈的哀號，而是帶著成熟的理解與無奈——明白愛已無法繼續，只能選擇遺忘，作為對自己和對方的釋懷，像是一封寫給過去的告別信。
+            它唱出了人們在失戀後的真實心境：深愛過、
+            痛過、思念過，卻最終仍要學會放下。
 
-            總在剎那間 有一些了解 說過的話不可能會實現<br>
-            就在一轉眼 發現你的臉 已經陌生不會再像從前<br>
-            我的世界開始下雪 冷得讓我無法多愛一天<br>
-            冷得連隱藏的遺憾 都那麼的明顯<br>
-
-            我和你吻別 在無人的街 讓風痴笑我上能拒絕<br>
-            我和你吻別 在狂亂的夜 我的心 等著迎接傷悲<br>
-
-            想要給你的思念 就像風箏斷了線<br>
-            飛不進你的世界 也溫暖不了你的視線<br>
-            我已經看見 一齣悲劇正上演<br>
-            劇終沒有喜悅 我仍然躲在你的夢裡面<br>
-
-            總在剎那間 有一些了解 說過的話不可能會實現<br>
-            就在一轉眼 發現你的臉 已經陌生不會再像從前<br>
-            我的世界開始下雪 冷得讓我無法多愛一天<br>
-            冷得連隱藏的遺憾 都那麼的明顯<br>
-
-            我和你吻別 在無人的街 讓風痴笑我上能拒絕<br>
-            我和你吻別 在狂亂的夜 我的心 等著迎接傷悲<br>
-
-            我和你吻別 在無人的街 讓風痴笑我上能拒絕<br>
-            我和你吻別 在狂亂的夜 我的心 等著迎接傷悲<br>
           </h5>
 
           </div>
@@ -254,31 +242,31 @@ body{
           <!-- Single collapse -->
           <div id="headingTwo">
             <h2>
-              <button class="btn btn-link btn-block text-start ps-3 collapsed fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
+              <button class="btn btn-link btn-block text-start ps-3 collapsed  fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
                 data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <i class="fas fa-angle-down"></i>
-                歌曲背景
+                製作團隊
               </button>
             </h2>
           </div>
 
           <div id="collapseTwo" class="collapse ps-3" aria-labelledby="headingTwo" data-mdb-parent="#accordionExample">
              <h5 class="text-reset fw-normal text-justify activity-text">
-            《吻別》是張學友 1993 年的經典代表作，歌曲推出後迅速在整個華語樂壇引起熱潮，不僅奠定張學友 「情歌天王」的地位，也成為無數人青春時期最深刻的情歌之一。 
-            這首歌以分手為主題，描述一段走到盡頭的戀情。主角深愛對方，卻面對戀人選擇離開的決定，他只能把所有的感情都放在「最後一個吻」 中。<br><br>
-            歌詞反覆表達「你不懂我的心」的無奈，呈現出一種既想挽留、卻無力改變結局的痛。這種糾結與心碎是許多人在面對愛情失去時真實的情緒 ，也讓歌曲具有強烈共鳴。 
-            旋律方面，〈吻別〉採用濃厚情感的抒情搖滾編曲，前奏憂傷而細膩，副歌則以爆發式的高音宣洩出壓抑已久的悲痛。張學友獨特的深情嗓音 ，更讓歌曲的哀傷與遺憾表現得淋漓盡致。
-            </h5>
+           演唱：王傑<br>
+            作詞：王文清<br>
+            ​作曲：王文清<br>
+            發行日期：1988年7月11日<br>
+          </h5>
           </div>
           <!-- Single collapse -->
 
           <!-- Single collapse -->
           <div id="headingThree">
             <h2>
-              <button class="btn btn-link btn-block text-start ps-3 collapsed fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
+              <button class="btn btn-link btn-block text-start ps-3 collapsed  fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
                 data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 <i class="fas fa-angle-down"></i>
-                製作團隊
+                歌詞預覽
               </button>
             </h2>
           </div>
@@ -286,10 +274,40 @@ body{
           <div id="collapseThree" class="collapse ps-3" aria-labelledby="headingThree"
             data-mdb-parent="#accordionExample">
              <h5 class="text-reset fw-normal text-justify activity-text">
-            演唱：張學友<br>
-            作詞：何啟弘<br>
-            作曲：殷文琦<br>
-            發行日期：1993年3月5日<br>
+            當你說要走 我不想揮手的時候<br>
+            愛情終究是一場空<br>
+            誰說我倆的過去盡在不言中<br>
+            別忘了我曾擁有你 你也曾愛過我<br>
+
+            當你留給我 我不想接受的傷痛<br>
+            愛情到頭來還是夢<br>
+            別說我倆的世界有太多不同<br>
+            就說你已經忘了我 你就要離開我<br>
+
+            誰能夠告訴我 我是否付出太多<br>
+            就當我從來沒有過<br>
+            還是消失在我心頭<br>
+            誰曾經提醒我 我的愛沒有把握<br>
+            就當我從來沒有過<br>
+            還是忘了你忘了我<br>
+
+            當你留給我 我不想接受的傷痛<br>
+            愛情到頭來還是夢<br>
+            別說我倆的世界有太多不同<br>
+            就說你已經忘了我 你就要離開我<br>
+
+            *誰能夠告訴我 我是否付出太多<br>
+            就當我從來沒有過<br>
+            還是消失在我心頭<br>
+            誰曾經提醒我 我的愛沒有把握<br>
+            就當我從來沒有過<br>
+            還是忘了你忘了我*（x2）<br>
+            </h5>
+
+            </h5>
+             <p class="text-end px-5 py-3">
+              <a class="btn btn-primary" href="in1-2a.html">上一頁</a>
+             </p>
             </h5>
           </div>
           <!-- Single collapse -->
@@ -298,20 +316,21 @@ body{
       </div>
       <div class="col-lg-6 pb-2 d-flex justify-content-center">
       <div class="text-end">
-    <img src="https://ppt.cc/fWbqXx@.jpg"
+    <img src="https://ppt.cc/fb46Rx@.jpg"
       class="img-fluid shadow-3 rounded d-block"
       alt="Sample image" />
       <br>
     <h3 class="mt-2 text-end text-secondary">
-       歌曲名稱：吻別
+       歌曲名稱：忘了你忘了我
         </h3>
-    </div>
-      </div>
-    <div class="text-end">
+          </div>
+            </div>
+     <div class="text-end">
     <a href="index.html">
       <button type="button" class="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="#000000"> 返回上一頁 </button>
     </a>
     </div>
+
   </section>
   <!--Section: Design Block-->
 

@@ -27,8 +27,6 @@
     <style></style>
 
 
-
-
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
 
@@ -36,6 +34,14 @@
 body{
          font-family: "Chiron GoRound TC", sans-serif;
 }
+
+.multi-line-truncate {
+        display: -webkit-box;        /* 建立伸縮盒模型 */
+        -webkit-box-orient: vertical;/* 垂直排列子元素 */
+        -webkit-line-clamp: 10;      /* 限制 10 行 */
+        overflow: hidden;            /* 超出隱藏 */
+        text-overflow: ellipsis;     /* 省略號 */
+      }
 </style>
   </head>
 
@@ -50,7 +56,7 @@ body{
 
 
 
-<nav class="navbar navbar-expand-lg bg-primary" >
+<nav class="navbar navbar-expand-lg bg-primary " >
   <!-- Container wrapper -->
   <div class="container-fluid">
     <!-- Toggle button -->
@@ -103,13 +109,13 @@ body{
               <a class="nav-link disabled">1980年代</a>
             </li>
             <li>
-              <a class="dropdown-item" href="in1-1.html">大約在冬季</a>
+              <a class="dropdown-item" href="in1-1a.html">大約在冬季</a>
             </li>
             <li>
-              <a class="dropdown-item" href="in1-2.html">忘了你‧忘了我</a>
+              <a class="dropdown-item" href="in1-2a.html">忘了你‧忘了我</a>
             </li>
             <li>
-              <a class="dropdown-item" href="in1-3.html">酒矸倘賣無</a>
+              <a class="dropdown-item" href="in1-3a.html">酒矸倘賣無</a>
             </li>
             <li><hr class="dropdown-divider" /></li>
 
@@ -118,13 +124,13 @@ body{
                 <a class="nav-link disabled">1990年代</a>
               </li>
               <li>
-                <a class="dropdown-item" href="in2-1.html">我是一隻小小鳥</a>
+                <a class="dropdown-item" href="in2-1a.html">我是一隻小小鳥</a>
               </li>
               <li>
-                <a class="dropdown-item" href="in2-2.html">吻別</a>
+                <a class="dropdown-item" href="in2-2a.html">吻別</a>
               </li>
               <li>
-                <a class="dropdown-item" href="in2-3.html">海闊天空</a>
+                <a class="dropdown-item" href="in2-3a.html">海闊天空</a>
               </li>
               <li>
                 <hr class="dropdown-divider" />
@@ -135,13 +141,13 @@ body{
                   <a class="nav-link disabled">2000年代</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="in3-1.html">一九四五 1945</a>
+                  <a class="dropdown-item" href="in3-1a.html">一九四五 1945</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="in3-2.html">天黑黑</a>
+                  <a class="dropdown-item" href="in3-2a.html">天黑黑</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="in3-3.html">擱淺的人</a>
+                  <a class="dropdown-item" href="in3-3a.html">擱淺的人</a>
                 </li>
 
           </ul>
@@ -200,8 +206,9 @@ body{
 
   <!--Section: Design Block-->
   <section>
+       
 
-    <h3 class="fs-1 text-center mb-5  text-primary">歌曲檔案</h3>
+    <h3 class="fs-1 text-center mb-5 text-primary">歌曲檔案</h3>
 
     <div class="row">
       <div class="col-lg-6 mb-4 mb-lg-0">
@@ -210,44 +217,22 @@ body{
           <!-- Single collapse -->
           <div id="headingOne">
             <h2>
-              <button class="btn btn-link btn-block text-start ps-3 fs-3  activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
+              <button class="btn btn-link btn-block text-start ps-3  fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
                 data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 <i class="fas fa-angle-down"></i>
-                歌詞預覽
+                歌曲背景
               </button>
             </h2>
           </div>
 
           <div id="collapseOne" class="collapse show ps-3" aria-labelledby="headingOne"
             data-mdb-parent="#accordionExample">
-            <h5 class="text-reset fw-normal text-justify activity-text">
-            月 暗淡的光線<br>
-            照著僥倖的人<br>
-            遠遠望著一空一隙<br>
-            破敗的海岸　風中浮沈的性命<br>
-            凋零落塗的咒誓<br>
-            怨嘆希望攏變成空　怨嘆命運戲弄<br>
-            咱是生在亂世的人　註定無半項<br>
-            但是我的心中　有一個願望<br>
-            想欲將所有的心意　予你知影<br>
-            混亂的時代 純情的夢<br>
-            我毋是勇敢的人<br>
-            只有恬恬佮你做伴　偷偷寫一條歌<br>
-            等希望的日頭照佇山嶺　等和平慢慢靠岸<br>
-            等飛行機 袂閣來<br>
-            想欲牽你的手　聽海湧的聲<br>
-            咱是生在亂世的人　註定無半項<br>
-            但是我的心中　有一個願望<br>
-            想欲將所有的心意　予你知影<br>
-            混亂的時代 純情的夢<br>
-            我毋是勇敢的人<br>
-            只有恬恬佮你做伴　偷偷寫一條歌<br>
-            等希望的日頭照佇山嶺<br>
-            等和平慢慢靠岸<br>
-            等飛行機 袂閣來<br>
-            想欲牽你的手　聽海湧的聲<br>
-            等飛行機 袂閣來<br>
-            予我牽你的手 唱這條戀歌<br>
+             <h5 class="text-reset fw-normal text-justify activity-text">
+            這首歌的歌詞以樸實的台灣鄉土語言描寫日常生活中的小人物和人情世故，用台語口語化的方式表達情感，使聽者感受到濃厚的生活氣息與文化韻味。
+            歌詞中的「酒矸倘賣無」本意是「酒瓶要不要賣」，透過這個生活化的問句，隱喻社會底層小人物的生存狀態，描述了日常生活中的辛酸、
+            孤單和人情冷暖，刻畫出小人物在平凡生活中努力求存、維持尊嚴的掙扎。<br><br>透過酒瓶作為象徵，不僅代表著物質上的困境，也象徵著心靈上的寄託與慰藉。
+            它既是一種對基層生活的寫實描述，也帶有對人性、情感以及社會現實的思考。歌詞中有著濃厚的人情味和鄉土情懷，讓聽者在旋律與歌詞的交織中，
+            感受到台灣社會的溫暖與苦樂交織。
           </h5>
 
           </div>
@@ -256,23 +241,21 @@ body{
           <!-- Single collapse -->
           <div id="headingTwo">
             <h2>
-              <button class="btn btn-link btn-block text-start ps-3 collapsed fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
+              <button class="btn btn-link btn-block text-start ps-3 collapsed  fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
                 data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <i class="fas fa-angle-down"></i>
-                歌曲背景
+                製作團隊
               </button>
             </h2>
           </div>
 
           <div id="collapseTwo" class="collapse ps-3" aria-labelledby="headingTwo" data-mdb-parent="#accordionExample">
              <h5 class="text-reset fw-normal text-justify activity-text">
-           此作品描寫1945年台灣仍處日治後期，高雄因軍事與港口地位遭美軍密集轟炸，城市破壞與家庭離散交織成戰爭記憶。
-           創作者以個人視角出發，透過「我不是勇敢的人」呈現普通人在戰火中的恐懼與無力，並以音樂保存愛與希望。
-           主唱楊大正以細膩方式書寫，不以宏觀史觀呈現，而是聚焦於日常情感與生存狀態。<br><br>
-           歌詞如「等飛行機袂閣來」、「欲牽你的手」，描繪轟炸下的等待與生離死別，使作品兼具戀曲的柔情與戰爭的沉重。
-           編曲加入李欣芸設計的管弦樂編制，提升史詩氛圍，使歷史畫面更具張力。
-           歌曲發表後，不僅喚起對高雄戰爭創傷的記憶，也促使人們反思和平與歷史教育的重要性，並深化對生命脆弱與珍貴的理解。
-           </h5>
+            演唱:蘇芮<br>
+            作詞:羅大佑、侯德健<br>
+            作曲:侯德健<br>
+            發行日期：1983年6月18日<br>
+            </h5>
           </div>
           <!-- Single collapse -->
 
@@ -282,35 +265,66 @@ body{
               <button class="btn btn-link btn-block text-start ps-3 collapsed fs-3 activity-title" type="button" data-mdb-ripple-init data-mdb-collapse-init
                 data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 <i class="fas fa-angle-down"></i>
-                製作團隊
+                歌詞預覽
               </button>
             </h2>
           </div>
 
           <div id="collapseThree" class="collapse ps-3" aria-labelledby="headingThree"
             data-mdb-parent="#accordionExample">
-            <h5 class="text-reset fw-normal text-justify activity-text">
-            演唱：楊大正 <br>
-           作詞：楊大正<br>
-           作曲：楊大正<br>
-           發行日期：2018年12月14日<br>
+             <h5 class="text-reset fw-normal text-justify activity-text">
+            酒乾倘賣唔(x4)<br>
+            多麼熟悉的聲音　陪我多少年風和雨<br>
+            從來不需要想起　永遠也不會忘記<br>
+            沒有天那有地　沒有地那有家<br>
+            沒有家那有你　沒有你那有我<br>
+            假如你不曾養育我 　給我溫暖的生活<br>
+            假如你不曾保護我　我的命運將會是什麼<br>
+            是你撫養我長大　陪我說第一句話<br>
+            是你給我一個家　讓我與你共同擁有它<br>
+
+            雖然你不會開口說一句話<br>
+            卻更能明白人世間的黑白與真假<br>
+            雖然你不會表達你的真情<br>
+            卻付出了熱忱的生命<br>
+            遠處傳來你多麼熟悉的聲音<br>
+            讓我想起你多麼慈祥的心靈<br>
+            什麼時候你再回到我身旁<br>
+            讓我再和你一起唱
+            （酒乾倘賣唔）<br>
+            酒乾倘賣唔(x7) <br>
+            多麼熟悉的聲音　陪我多少年風和雨<br>
+            從來不需要想起　永遠也不會忘記<br>
+            沒有天那有地　沒有地那有家<br>
+            沒有家那有你　沒有你那有我<br>
+            多麼熟悉的聲音　陪我多少年風和雨<br>
+            從來不需要想起　永遠也不會忘記<br>
+            酒乾倘賣唔(x12) <br>
+            </h5>
+
+            </h5>
+             <p class="text-end px-5 py-3">
+              <a class="btn btn-primary" href="in1-3a.html">上一頁</a>
+             </p>
             </h5>
           </div>
           <!-- Single collapse -->
         </div>
         <!-- Accordion wrapper -->
       </div>
-        <div class="col-lg-6 pb-2 d-flex justify-content-center">
-        <div class="text-end">
-          <img src="https://ppt.cc/fe25zx@.jpg" class="img-fluid shadow-3 rounded d-block" alt="Sample image" />
-          <br>
-          <h3 class="mt-2 text-end text-secondary">
-           歌曲名稱：一九四五 1945
-          </h3>
-        </div>
-    </div>
+      <div class="col-lg-6 pb-2 d-flex justify-content-center">
       <div class="text-end">
-    <a href="index.html">
+    <img src="https://ppt.cc/fWb46x@.jpg"
+      class="img-fluid shadow-3 rounded d-block"
+      alt="Sample image" />
+      <br>
+    <h3 class="mt-2 text-end text-secondary">
+       歌曲名稱：酒矸倘賣無
+        </h3>
+    </div>
+      </div>
+      <div class="text-end">
+      <a href="index.html">
       <button type="button" class="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="#000000"> 返回上一頁 </button>
     </a>
     </div>
@@ -333,13 +347,13 @@ body{
 
 
 
+
 <!-- Copyright -->
   <div class="text-center p-3 bg-primary"   style="color: white;" >
     © 2026 Copyright:
     <a class="text-body" href=" https://mjq101412.github.io/sdgs/"  style="color: white !important;">mjq101412.github</a>
   </div>
   <!-- Copyright -->
-
 
 
 
