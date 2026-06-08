@@ -27,10 +27,10 @@
   color: #ffffff; border-bottom:
   2px solid transparent; }
 
-.nav-link.active {
+/* .nav-link.active {
   color: #fcad24 !important; border-bottom:
   2px solid #fcad24 !important; }
-
+ */
 
 
 
@@ -52,13 +52,13 @@ button.activity-title[aria-expanded="true"] {
 }
 
 button.activity-title[aria-expanded="false"] {
-  color:  #2C3D5B !important;
+  color:  #E92823 !important;
 }
 
 
 
 .active-shadow{
-  box-shadow: inset 0 0 20px #fcad24;
+  box-shadow: inset 0 0 20px #b8b8b8;
   border-radius: 4px;
 }
 
